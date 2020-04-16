@@ -9,10 +9,10 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -54,34 +54,33 @@
           </div>
         </li>
         <li class="sent-message message">
-            <div class="message__content">
-              <span class="message__bubble">
-                Thank you see you soon!
-              </span>
-            </div>
-          </li>
-        </ul>
-      </main>
-      <div class="chat__write--container">
-        <input
-          type="text"
-          class="chat__write"
-          placeholder="Send message"
-          class="chat__write-input"
-        />
-        <div class="chat__icon-left chat__icon">
-          <i class="far fa-plus-square"></i>
-        </div>
-  
-        <div class="chat__icon-right chat__icon">
-          <span class="chat__write-icon">
-            <i class="far fa-smile-wink"></i>
-          </span>
-          <span class="chat__write-icon">
-            <i class="fas fa-microphone"></i>
-          </span>
-        </div>
-      </div>
+          <div class="message__content">
+            <span class="message__bubble">
+              Thank you see you soon!
+            </span>
+          </div>
+        </li>
+      </ul>
     </main>
+    <div class="chat__write--container">
+      <input
+        type="text"
+        class="chat__write"
+        placeholder="Send message"
+        class="chat__write-input"
+      />
+      <div class="chat__icon-left chat__icon">
+        <i class="far fa-plus-square"></i>
+      </div>
+
+      <div class="chat__icon-right chat__icon">
+        <span class="chat__write-icon">
+          <i class="far fa-smile-wink"></i>
+        </span>
+        <span class="chat__write-icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </div>
   </body>
 </html>
